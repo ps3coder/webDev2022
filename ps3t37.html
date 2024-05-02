@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS transisiton</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+#box{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-item: center;
+    background-color: rgb(255, 0, 0);
+ /*   transition-property: background-color;
+   transition-duration: 0.2s;
+   transition-timing-function: ease-in;
+   transition-delay: 2s;
+*/
+   transition: all 1s ease-in-out 0.3s;
+
+
+}
+#box:hover{
+     background-color: grey;
+     height: 300px;
+     width: 300px;
+     border-radius: 100px;
+     background-color: grey;
+   
+}
+
+</style>
+</head>
+<body>
+    <h3>This is transisitonTutorial</h3>
+    <div class="container">
+        <div id="box">
+            This is box
+        </div>
+    </div>
+    
+</body>
+</html>

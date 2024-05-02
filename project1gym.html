@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ps3coder</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+  body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(img/sport-2792995.jpg);
+    background-repeat: no-repeat;
+    background-size: 1550px ;
+  
+
+  }
+
+  .left {
+
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 45px;
+
+  }
+
+   .left img{
+    width: 98px;
+    filter: invert(100%);
+    
+   }
+  .mid {
+    display: inline;
+
+    position: absolute;
+    width: 500px;
+    margin: 15px;
+    top: 45px;
+    left: 438px;
+  
+ 
+
+  }
+
+
+  .right {
+    position: absolute;
+    right: 34px;
+    top: 45px;
+    display: inline-block;
+  
+    
+
+  }
+
+  .navbar {
+
+    display: inline-block;
+  }
+
+  .navbar li {
+    display: inline-block;
+font-size: 18px;
+  }
+
+  .navbar li a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 26px;
+
+  }
+  .navbar li a:hover , .navbar li a.active{
+
+    text-decoration: underline;
+    color: grey;
+  }
+  .btn{
+    margin: 0px 9px;
+    color: black;
+    background-color: aliceblue;
+    padding: 3px 3px;
+    border: 2px solid grey;
+    border-radius: 7px; 
+    font-size: small;
+    cursor: pointer;  
+
+  }
+  .btn:hover{
+    background-color: grey;
+  }
+  .container{
+    
+    margin: 400px 60px;
+    padding: 10px 100px;
+    width: 1000px;
+    border-radius: 12px ;
+    font-size: medium;
+    
+  }
+  .form{
+    font-size: medium;
+    text-align: center;
+    display: block;
+    width: 900px;
+    border-radius: 12px;
+  }
+  .container h1{
+    text-align: center;
+  }
+  .container button{
+position: static;
+    text-align: center;
+display: block;
+width: 93px;
+margin: 5px auto;
+    
+ 
+   
+   
+  }
+</style>
+
+<body>
+  <header>
+    <div class="left">
+      <img src="img/ps3logo.jpg" alt="">
+      <div>
+        ps3fitness
+      </div>
+    </div>
+
+    <div class="mid">
+
+      <ul class="navbar">
+        <li><a href="#" class="active"> Home</a></li>
+        <li><a href="#"> About Us</a></li>
+        <li><a href="#"> Cars </a></li>
+        <li><a href="#"> Contact us</a></li>
+      </ul>
+    </div>
+
+    <div class="right">
+  <button class="btn">Call Us Now</button>
+  <button class="btn">Email US</button>
+    </div>
+  </header>
+<div class="container">
+  <h1>
+    Join the best gym of ahemdabad , Now.
+  </h1>
+<form action="noaction.php">
+  <div class="form">
+
+    <input type="text" name="" placeholder="Enter your name ">
+  </div> 
+  <div class="form group">
+    <input type="text" name="" placeholder="Enter your age ">
+  </div>
+   <div class="form group">
+    <input type="text" name="" placeholder="Enter your gender ">
+  </div> 
+  <div class="form group">
+    <input type="text" name="" placeholder="Enter your weight ">
+  </div>
+  <button class="btn">Submit</button>
+</form>
+</div>
+</body>
+
+</html>

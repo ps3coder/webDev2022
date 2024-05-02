@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes and animation</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        .container{
+            background-color: rgb(86, 255, 8);
+            border-radius: 190px;
+        }
+        .box{
+            background-color: rgb(0, 0, 0);
+            padding: 150px;
+            width: 50px;
+            height: 50px;
+            position: relative;
+            animation-name: ps3p1;
+            animation-duration: 9s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: backwards;
+           animation-timing-function: ease-in;
+           animation-delay: 1s;
+           animation-direction: reverse;
+           border-radius: 210px ;
+           align-items: center;
+    
+          
+
+        }
+
+        @keyframes ps3p2 {
+           0%{
+            top: 0;
+            left: 0px;
+
+
+           }
+           25%{
+            top: 150px;
+            left: 150px;
+
+           }
+           75%{
+            top: 150px;
+            left: 150px;
+
+           }
+           100%{
+            top: 0px;
+            left: 0px;
+
+           }
+     
+        }
+        @keyframes ps3p1 {
+            from{
+                width: 200;
+
+            }
+            to{
+                width: 1400px;
+
+            }
+            
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus unde ipsa sint error magni numquam fuga impedit dolore cumque incidunt, asperiores, dignissimos quam sunt explicabo tenetur quaerat illum porro iure accusantium provident voluptatem aut?
+        </div>
+    </div>
+</body>
+</html>

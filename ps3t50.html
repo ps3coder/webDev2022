@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Java script string function</title>
+
+    <style>
+
+        body{
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <script>
+        var str = "this is a string"
+        console.log(str);
+
+
+        var position = str.indexOf('is');   // position in any sentance
+        console.log(position);
+        
+        
+        var position = str.lastIndexOf('is');   // position in any sentance from last
+        console.log(position); 
+
+
+        //substring from a string
+        var substr = str.slice(1,6);
+        var substr1 = str.substr(1,7);   //alos take negative values
+        console.log(substr1);
+
+
+        var replaced = str.replace('string','ps3coder');
+        console.log(substr1);
+        console.log(replaced);
+
+
+        var repalaced = str.replace('string','ps3coder');
+        console.log(str);
+        console.log(replaced);
+       
+
+        console.log(str.toUpperCase());
+        console.log(str.toLowerCase());
+
+        var newString = str.concat('NEW STRING')  // inplace of plus
+        console.log(newString)
+
+        var strWitWhitespaces = "this conatains      white spaces"  ;
+        console.log(strWitWhitespaces)
+        console.log(strWitWhitespaces.trim())
+
+
+
+        var char2 = str.charCodeAt(2);
+        var char2 = str.charAt(2);
+        console.log(char2)
+
+
+        console.log(str[3])
+    </script>
+</body>
+</html>
